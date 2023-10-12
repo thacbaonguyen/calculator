@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/19/08/44/apple-2962084_960_720.png"
+          alt=""
+        />
+      </h1>
+
+      <input type="text" id="display" class="screen" />
+      <div class="buttons">
+        <button class="button1" onclick="deletes()">C</button>
+        <button onclick="calcul('7')">7</button>
+        <button onclick="calcul('8')">8</button>
+        <button onclick="calcul('9')">9</button>
+        <button class="button1" onclick="calcul('+')">+</button>
+        <button onclick="calcul('4')">4</button>
+        <button onclick="calcul('5')">5</button>
+        <button onclick="calcul('6')">6</button>
+        <button class="button1" onclick="calcul('-')">-</button>
+        <button onclick="calcul('1')">1</button>
+        <button onclick="calcul('2')">2</button>
+        <button onclick="calcul('3')">3</button>
+        <button class="button1" onclick="calcul('*')">*</button>
+        <button onclick="calcul('0')">0</button>
+        <button class="button1" onclick="calcul('.')">.</button>
+        <button class="button1" onclick="Result()">=</button>
+        <button class="button1" onclick="calcul('/')">/</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
